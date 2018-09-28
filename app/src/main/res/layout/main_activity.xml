@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_predeterminado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView Predeterminado"/>
+
+    <Button
+        android:id="@+id/btn_personalizado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView Personalizado"/>
+
+    <Button
+        android:id="@+id/btn_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RecyclerView and CardView"/>
+
+    <Button
+        android:id="@+id/btn_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment"/>
+
+
+</LinearLayout>
